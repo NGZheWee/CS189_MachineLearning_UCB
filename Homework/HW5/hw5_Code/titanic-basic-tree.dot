@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box];
+0 [label="sex_male < 1.00"];
+0 -> 1 [label="Yes"];
+1 [label="pclass_3.0 < 1.00"];
+1 -> 3 [label="Yes"];
+3 [label="embarked_S < 1.00"];
+3 -> 7 [label="Yes"];
+7 [label="Prediction: 1"];
+3 -> 8 [label="No"];
+8 [label="Prediction: 1"];
+1 -> 4 [label="No"];
+4 [label="fare < 23.45"];
+4 -> 9 [label="Yes"];
+9 [label="Prediction: 1"];
+4 -> 10 [label="No"];
+10 [label="Prediction: 0"];
+0 -> 2 [label="No"];
+2 [label="age < 10.00"];
+2 -> 5 [label="Yes"];
+5 [label="sibsp < 3.00"];
+5 -> 11 [label="Yes"];
+11 [label="Prediction: 1"];
+5 -> 12 [label="No"];
+12 [label="Prediction: 0"];
+2 -> 6 [label="No"];
+6 [label="fare < 26.29"];
+6 -> 13 [label="Yes"];
+13 [label="Prediction: 0"];
+6 -> 14 [label="No"];
+14 [label="Prediction: 0"];
+}
