@@ -21,4 +21,6 @@ This repository contains coursework from **CS189: Introduction to Machine Learni
 - **Homework**: The `Homework/` directory contains assignments that include code implementations and theoretical problem sets. Each assignment focuses on specific machine learning algorithms and concepts.
 
 
-Explore the coursework to see how machine learning principles are implemented and analyzed, covering both theoretical and practical aspects. This repository highlights my understanding of the fundamental building blocks of machine learning and its applications.
+## Academic Integrity Note
+
+This repository contains my own coursework submissions and related learning artifacts, shared for portfolio review only; do not copy or submit this material for active or future coursework, and follow your institution's academic integrity policies.
